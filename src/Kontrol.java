@@ -8,6 +8,7 @@ public class Kontrol implements ActionListener{
     
     GUI gui;
     
+    //Kontruktør,
     public Kontrol(GUI gui){
         this.gui = gui;
         gui.addActionListener(this);

@@ -14,11 +14,13 @@ import java.awt.event.*;
  */
 public class GUI extends javax.swing.JPanel{
     
-    private boolean erIgang = false;
-    private ActionListener lytter = null;
+    private boolean erIgang = false;            //Opretter boolean og sætter til false
+    private ActionListener lytter = null;       //Opretter variabel af ActionListener og sætter til null
     
+    
+    //Kontruktør, der kalder metoden initComponents, såsnart et GUI-objekt oprettes
     public GUI() {
-        initComponents();
+        initComponents();                       
         
     }
     
@@ -27,7 +29,8 @@ public class GUI extends javax.swing.JPanel{
         
     }
     
- 
+    
+    //Metode, der ændrer tekst på knap, når den er blevet klikket på
     public void setKnap(){
     
         if(erIgang ==false){
@@ -190,7 +193,7 @@ public class GUI extends javax.swing.JPanel{
     }// </editor-fold>//GEN-END:initComponents
 
     private void startKnapActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startKnapActionPerformed
-        // TODO add your handling code here:
+      
         lytter.actionPerformed(evt);
     }//GEN-LAST:event_startKnapActionPerformed
 

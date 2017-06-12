@@ -21,9 +21,9 @@ public class Main {
     }
     
     public static void main(String[] arg){
-        Main main = new Main();
-        main.init();
-        main.opretGUI();
+        Main main = new Main();                 //Opretter objekt af mainklassen
+        main.init();                            //Kalder init-metoden på mainobjektet
+        main.opretGUI();                        //Kalder opretGUI-metoden på mainobjektet
         
     }
     
