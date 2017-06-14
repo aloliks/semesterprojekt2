@@ -1,7 +1,7 @@
 /*
  * Denne klasse skal kunne følgende:
  * - oprette forbindelse til databasen
- * - skrive målinger til databasen
+ * - indhente målinger fra Kø-klassen og gemme målingerne i databasen
  * - returnere målinger fra databasen
  */
 
@@ -85,11 +85,11 @@ public class Database {
     }
 
     //Test af database
+    /*
     public static void main(String[] args) {
-        // TODO code application logic here
         Database test = new Database();
         test.initConn();
         System.exit(0);
     }
-
+*/
 }
